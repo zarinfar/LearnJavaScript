@@ -17,8 +17,8 @@ document.getElementById("person2").innerHTML = "My Name is " + person2.fistName2
     " and My father name is " + person2.FatherName
 
 function Test () {
-    let a = document.getElementById("Value1").value;
-    let b = document.getElementById("Value2").value;
+    let a = Number(document.getElementById("Value1").value);
+    let b = Number(document.getElementById("Value2").value);
 
     if (a == b) {
         document.getElementById("Displayer").innerHTML = "Mosavi ast" ;
