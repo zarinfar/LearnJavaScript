@@ -65,15 +65,19 @@ function Test () {
     let b = Number(document.getElementById("Value2").value);
 
     if (a == b) {
+
+        document.getElementById("Mosaviastba").innerHTML = "Ba in" ;
         document.getElementById("Displayer").innerHTML = "Mosavi ast" ;
     }
 
     if (a < b) {
-        document.getElementById("Displayer").innerHTML = a + " az " + b + " kuchiktare";
+        document.getElementById("Mosaviastba").innerHTML = "Az In" ;
+        document.getElementById("Displayer").innerHTML = " kuchiktare";
     }
 
     if (a > b) {
-        document.getElementById("Displayer").innerHTML = a + " az " + b + " Bozorgtare";
+        document.getElementById("Mosaviastba").innerHTML = "Az In" ;
+        document.getElementById("Displayer").innerHTML = " Bozorgtare";
     }
 
 }
