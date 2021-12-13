@@ -13,8 +13,17 @@ const  person2 = {
     FatherName: "Mohamad"
                 };
 
+const Food = {
+    Name: "Pizza",
+    Price: 150000
+};
+
+document.getElementById("food").innerHTML = Food.Name + " is " + Food.Price + " Rial"
+
 document.getElementById("person2").innerHTML = "My Name is " + person2.fistName2 + " " + person2.LastName +
     " and My father name is " + person2.FatherName
+
+
 
 function Test () {
     let a = Number(document.getElementById("Value1").value);
